@@ -1,0 +1,30 @@
+footer
+  background: rgba(0,0,0,0.5)
+ 
+  .lockup
+    padding: 10px 30px
+    +clearfix
+    
+    .logo
+      transform: scale(0.75,0.75)
+      float: left
+      margin-left: auto
+      margin-right: auto
+    
+    .content-wrap
+      float: left
+      
+      .copyright
+        margin: 0
+        text-transform: uppercase
+        font-size: 12px
+        color: rgba(0,0,0,0.4)
+      
+      a
+        @extend %small-bold
+        color: rgba(0,0,0,0.5)
+        display: inline-block
+        margin-right: 30px
+        
+        &:hover
+          color: rgba(0,0,0,0.7)
